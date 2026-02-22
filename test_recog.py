@@ -15,7 +15,7 @@ model = VisionEncoderDecoderModel.from_pretrained(model_name).to(device)
 
 # Sample image (you can replace with your own later)
 url = "https://huggingface.co/datasets/Narsil/image_dummy/raw/main/parrots.png"
-image = Image.open(BytesIO(requests.get(url).content)).convert("RGB")
+image = Image.open("test_img.jpg").convert("RGB")
 
 pixel_values = processor(images=image, return_tensors="pt").pixel_values.to(device)
 
