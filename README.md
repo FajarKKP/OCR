@@ -1,2 +1,9 @@
-# OCR
-A repo about the implementation of an Industry Grade, End-to-end OCR System.
+# OCR Local System
+
+End-to-end natural scene OCR system built with transfer learning.
+
+## Goals
+- Modular architecture
+- Local FastAPI server
+- Phone-accessible
+- Industry-style structure
