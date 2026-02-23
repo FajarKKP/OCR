@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import cv2
 
 # Load text detection model
-model = YOLO("yolov8n.pt")  # temporary — we validate pipeline first
+model = YOLO("keremberke/yolov8n-text-detection")  # temporary — we validate pipeline first
 
 image_path = "test_img.jpg"
 
